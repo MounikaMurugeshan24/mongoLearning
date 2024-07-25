@@ -8,7 +8,7 @@ app.use(express.json());
 mongoose.connect('mongodb+srv://mounimurugeshan123:blAxTzNzDh1cQhu1@mongolearn.0nzdedt.mongodb.net/mongoLearn?retryWrites=true&w=majority&appName=Mongolearn')
   .then(() => {
     console.log('Connected!')
-    app.listen(80, ()=> {
+    app.listen(3000, ()=> {
         console.log('Server is running on port 3000');
     })
 })
